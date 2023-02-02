@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "hmpastana/transcriptions",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hmpastana/composer_package.git",
-                "reference": "40873332980e8c9100e27f95711f53f3a3e9ab13"
+                "reference": "f43509de63987d3061497a91bcb44f8542f418df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hmpastana/composer_package/zipball/40873332980e8c9100e27f95711f53f3a3e9ab13",
-                "reference": "40873332980e8c9100e27f95711f53f3a3e9ab13",
+                "url": "https://api.github.com/repos/hmpastana/composer_package/zipball/f43509de63987d3061497a91bcb44f8542f418df",
+                "reference": "f43509de63987d3061497a91bcb44f8542f418df",
                 "shasum": ""
             },
             "require": {
@@ -42,9 +42,9 @@
             "description": "Load and parse VTT files",
             "support": {
                 "issues": "https://github.com/hmpastana/composer_package/issues",
-                "source": "https://github.com/hmpastana/composer_package/tree/v1.0.0"
+                "source": "https://github.com/hmpastana/composer_package/tree/v1.0.1"
             },
-            "time": "2023-02-02T03:28:55+00:00"
+            "time": "2023-02-02T05:03:24+00:00"
         }
     ],
     "packages-dev": [
