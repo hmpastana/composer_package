@@ -6,6 +6,7 @@ use Laracasts\Transcriptions\Line;
 use Laracasts\Transcriptions\Transcription;
 use PHPUnit\Framework\TestCase;
 use ArrayAccess;
+use JsonSerializable;
 
 class TranscriptionTest extends TestCase
 {
@@ -54,12 +55,23 @@ class TranscriptionTest extends TestCase
     }
 
     /** @test */
-    function playground()
+    function it_supports_array_access()
     {
      
         $lines = $this->transcription->lines();
 
         $this->assertInstanceOf(ArrayAccess::class, $lines);
         
+    }
+
+    /** @test */
+    function it_can_render_as_json()
+    {
+        
+        $lines = $this->transcription->lines();
+ 
+        $this->assertInstanceOf(JsonSerializable::class, $lines);
+        $this->assertJson(json_encode($lines));
+
     }
 }
