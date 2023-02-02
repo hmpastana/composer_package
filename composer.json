@@ -1,5 +1,5 @@
 {
-    "name": "hmpastana/transcriptions",
+    "name": "hmpastana/transcription",
     "description": "Load and parse VTT files",
     "autoload": {
         "psr-4": {
